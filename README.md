@@ -1,19 +1,7 @@
-# 📊 Learning Probability Density Function (PDF) from NO₂ Air Quality Data
-
-```{=html}
-<p align="center">
-```
-`<img src="https://img.shields.io/badge/Python-3.10+-blue">`{=html}
-`<img src="https://img.shields.io/badge/Project-Type%20Statistical%20Modeling-orange">`{=html}
-`<img src="https://img.shields.io/badge/Status-Completed-brightgreen">`{=html}
-`<img src="https://img.shields.io/badge/Level-Industry%20Grade-success">`{=html}
-```{=html}
-</p>
-```
 
 ------------------------------------------------------------------------
 
-# 📌 Project Overview
+#  Project Overview
 
 This project implements **probability density function learning** using
 real-world NO₂ air quality data from India.\
@@ -30,7 +18,7 @@ This project demonstrates:
 
 ------------------------------------------------------------------------
 
-# 🧠 Mathematical Formulation
+#  Mathematical Formulation
 
 ## Data Transformation
 
@@ -60,7 +48,7 @@ Where:
 
 ------------------------------------------------------------------------
 
-# 📋 Learned Parameters
+#  Learned Parameters
 
   Parameter   Description                        Value
   ----------- ---------------------------------- -----------------------
@@ -70,7 +58,7 @@ Where:
 
 ------------------------------------------------------------------------
 
-# 📊 Results and Visualizations
+#  Results and Visualizations
 
 ## Original NO₂ Distribution
 
@@ -84,7 +72,7 @@ Where:
 
 ------------------------------------------------------------------------
 
-# 📁 Output Files Generated
+#  Output Files Generated
 
   File                       Description
   -------------------------- ----------------------------
@@ -96,7 +84,7 @@ Where:
 
 ------------------------------------------------------------------------
 
-# 🏗️ Workflow Architecture
+#  Workflow Architecture
 
 ``` mermaid
 flowchart LR
@@ -113,7 +101,7 @@ flowchart LR
 
 ------------------------------------------------------------------------
 
-# 📂 Project Structure
+#  Project Structure
 
 ``` mermaid
 graph TD
@@ -128,26 +116,21 @@ graph TD
 
 ------------------------------------------------------------------------
 
-# ⚙️ Installation
-
-Clone repository:
-
-git clone https://github.com/yourusername/pdf-learning-no2
-
+#  Installation
 Install dependencies:
 
 pip install -r requirements.txt
 
 ------------------------------------------------------------------------
 
-# ▶️ How to Run
+#  How to Run
 
 cd src\
 python main.py
 
 ------------------------------------------------------------------------
 
-# 📈 Sample Output Table
+#  Sample Output Table
 
   Parameter   Value
   ----------- -----------------------
@@ -157,7 +140,7 @@ python main.py
 
 ------------------------------------------------------------------------
 
-# 🚀 Key Features
+#  Key Features
 
 -   Industry‑standard project structure
 -   Automated parameter estimation
@@ -167,7 +150,7 @@ python main.py
 
 ------------------------------------------------------------------------
 
-# 👨‍💻 Author
+#  Author
 
 Manleen Kaur\
 Roll Number: 102303599
@@ -176,6 +159,6 @@ Thapar Institute of Engineering and Technology
 
 ------------------------------------------------------------------------
 
-# 📜 License
+#  License
 
 This project is intended for academic and educational purposes.
