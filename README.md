@@ -74,15 +74,15 @@ Where:
 
 #  Output Files Generated
 
-  File                       Description
-  -------------------------- ----------------------------
-  output/parameters.json     Parameters in JSON format
-  output/parameters.txt      Human-readable parameters
-  output/summary.csv         Parameter summary table
-  plots/histogram_no2.png    Original data histogram
-  plots/distribution_z.png   Transformed data histogram
+| File | Description |
+|------|-------------|
+| `output/parameters.json` | Parameters stored in JSON format |
+| `output/parameters.txt` | Human-readable parameter values |
+| `output/summary.csv` | Tabular summary of learned parameters |
+| `plots/histogram_no2.png` | Histogram of original NO₂ data |
+| `plots/distribution_z.png` | Histogram of transformed variable z |
 
-------------------------------------------------------------------------
+
 
 #  Workflow Architecture
 
