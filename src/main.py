@@ -98,23 +98,33 @@ print("Parameters saved.")
 # ==============================
 
 # Histogram original
-plt.figure()
-plt.hist(x, bins=50)
-plt.title("Original NO2 Distribution")
-plt.xlabel("NO2")
-plt.ylabel("Frequency")
-plt.savefig(f"{PLOT_FOLDER}/histogram_no2.png")
-plt.close()
 
-# Histogram transformed
-plt.figure()
-plt.hist(z, bins=50, density=True)
-plt.title("Transformed Variable z Distribution")
+
+# Create smooth x range centered around mean
+x_vals = np.linspace(mu - 4*np.sqrt(variance), mu + 4*np.sqrt(variance), 500)
+
+# Gaussian PDF formula
+pdf_vals = c * np.exp(-lam * (x_vals - mu)**2)
+
+# Plot histogram (density normalized)
+plt.figure(figsize=(10,6))
+
+plt.hist(z,
+         bins=100,
+         density=True,
+         alpha=0.6,
+         label="Transformed Data Histogram")
+
+# Plot bell curve
+plt.plot(x_vals,
+         pdf_vals,
+         linewidth=3,
+         label="Learned Gaussian PDF (Bell Curve)")
+
+plt.title("Bell-Shaped Gaussian Curve Fit on Transformed Data")
 plt.xlabel("z")
-plt.ylabel("Density")
-plt.savefig(f"{PLOT_FOLDER}/distribution_z.png")
-plt.close()
+plt.ylabel("Probability Density")
+plt.legend()
 
-print("Plots saved.")
-
-print("\nProject completed successfully.")
+plt.savefig("../plots/bell_curve_fit.png", dpi=300)
+plt.show()
