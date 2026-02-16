@@ -68,7 +68,7 @@ Where:
 
 ## Transformed Variable Distribution
 
-![Transformed Distribution](plots/distribution_z.png)
+![Transformed_distribution](plots/bell_curve_fit.png)
 
 ------------------------------------------------------------------------
 
