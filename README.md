@@ -48,13 +48,13 @@ Where:
 
 ------------------------------------------------------------------------
 
-#  Learned Parameters
+##  Learned Parameters
 
-  Parameter   Description                        Value
-  ----------- ---------------------------------- -----------------------
-  μ           Mean of transformed distribution   25.819751672076492
-  λ           Distribution spread parameter      0.0014619269889668285
-  c           Normalization constant             0.021571875520386332
+| Parameter | Symbol | Value |
+|-----------|--------|-------|
+| Mean | μ | 25.819751672076492 |
+| Lambda | λ | 0.0014619269889668285 |
+| Constant | c | 0.021571875520386332 |
 
 ------------------------------------------------------------------------
 
@@ -72,14 +72,15 @@ Where:
 
 ------------------------------------------------------------------------
 
-#  Output Files Generated
+##  Output Files
 
-| File                             |         Description                     |
-| `output/parameters.json`         | Parameters stored in JSON format        |
-| `output/parameters.txt`          | Human-readable parameter values         |
-| `output/summary.csv`             | Tabular summary of learned parameters   |
-| `plots/histogram_no2.png`        | Histogram of original NO₂ data          |
-| `plots/distribution_z.png`       | Histogram of transformed variable z     |  
+| File | Description |
+|-----------|------------------------------|
+| output/parameters.json | Parameters in JSON format |
+| output/parameters.txt | Human-readable parameters |
+| output/summary.csv | Parameter summary |
+| plots/histogram_no2.png | Original histogram |
+| plots/distribution_z.png | Transformed histogram |
 
 
 
@@ -124,7 +125,6 @@ pip install -r requirements.txt
 
 #  How to Run
 
-cd src\
 python main.py
 
 ------------------------------------------------------------------------
@@ -141,7 +141,6 @@ python main.py
 
 #  Key Features
 
--   Industry‑standard project structure
 -   Automated parameter estimation
 -   Visualization pipeline
 -   Exportable output files
